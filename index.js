@@ -22,8 +22,15 @@ app.use(cors());
 // app.get('/',(req,res)=>{
 //     res.send('This is a stack overflow clone API')
 // })
+
+app.use('/user',userRoutes)
+app.use('/questions',questionRoutes)
+app.use('/answer',answerRoutes)
+
+const PORT=process.env.PORT || 5000;
+
 app.use(express.static(path.join(__dirname, "./client/build")));
-app.get("*", function (req, res) {
+app.get("/*", function (req, res) {
   res.sendFile(
     path.join(__dirname, "./client/build/index.html"),
     function (err) {
@@ -31,12 +38,6 @@ app.get("*", function (req, res) {
     }
   );
 });
-
-app.use('/user',userRoutes)
-app.use('/questions',questionRoutes)
-app.use('/answer',answerRoutes)
-
-const PORT=process.env.PORT || 5000;
 
 const DATABASE_URL = process.env.CONNECTION_URL ;
 mongoose.set('strictQuery',true);
