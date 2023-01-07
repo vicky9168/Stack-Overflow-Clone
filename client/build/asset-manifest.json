@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fb9f3429.chunk.css",
+    "main.js": "/static/js/main.8ce4a51a.chunk.js",
+    "main.js.map": "/static/js/main.8ce4a51a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5169a808.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5169a808.js.map",
+    "static/js/2.25b5119b.chunk.js": "/static/js/2.25b5119b.chunk.js",
+    "static/js/2.25b5119b.chunk.js.map": "/static/js/2.25b5119b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.fb9f3429.chunk.css.map": "/static/css/main.fb9f3429.chunk.css.map",
+    "static/js/2.25b5119b.chunk.js.LICENSE.txt": "/static/js/2.25b5119b.chunk.js.LICENSE.txt",
+    "static/media/black-logo.4d05484b.svg": "/static/media/black-logo.4d05484b.svg",
+    "static/media/globe.e632fd52.png": "/static/media/globe.e632fd52.png",
+    "static/media/logo.867bf9d2.jpg": "/static/media/logo.867bf9d2.jpg",
+    "static/media/message.717c4560.svg": "/static/media/message.717c4560.svg",
+    "static/media/pen-solid.6a3dc754.svg": "/static/media/pen-solid.6a3dc754.svg",
+    "static/media/search.06e310db.svg": "/static/media/search.06e310db.svg",
+    "static/media/sort-down.e3e147a5.svg": "/static/media/sort-down.e3e147a5.svg",
+    "static/media/sort-up.d21f6d8b.svg": "/static/media/sort-up.d21f6d8b.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5169a808.js",
+    "static/js/2.25b5119b.chunk.js",
+    "static/css/main.fb9f3429.chunk.css",
+    "static/js/main.8ce4a51a.chunk.js"
+  ]
+}
