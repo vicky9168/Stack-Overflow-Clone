@@ -44,6 +44,14 @@ const Tags = () => {
         id: 10,
         tagName: "node.js",
         tagDesc: "Node.js is an event-based, non-blocking, asynchronous I/O runtime that uses Google's V8 JavaScript engine and libuv library. "
+    },{
+        id: 11,
+        tagName: "Angular",
+        tagDesc: "Angular is a TypeScript-based, free and open-source web application framework led by the Angular Team at Google and by a community of individuals and corporations. "
+    },{
+        id: 12,
+        tagName: "mongoDB",
+        tagDesc: "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. "
     }] 
   return (
 <div className="home-container-1">

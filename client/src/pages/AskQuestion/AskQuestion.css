@@ -1,14 +1,20 @@
 .ask-question{
     min-height: 100vh;
+    min-width: 100%;
     background-color: #f1f2f3;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .ask-ques-container{
     margin:auto;
     max-width: 1200px;
+    /* max-height: 1000px; */
 }
 .ask-ques-container h1{
     padding: 80px 0px 20px 0px;
+}
+.ask-form-container{
+    display: grid;
+    /* justify-content: flex-start; */
 }
 .ask-ques-container form .ask-form-container{
  padding: 20px;

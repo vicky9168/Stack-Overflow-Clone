@@ -1,3 +1,13 @@
+.w{
+    /* width: auto; */
+    margin: 0%;
+    width: 100%;
+    max-height: 100%;
+    margin-bottom: -25px;
+    z-index: 1;
+    overflow: hidden;
+
+}
 .main-nav{
     min-height: 50px;
     width: 100%;
@@ -12,6 +22,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 
 }
 .navbar{
@@ -67,4 +78,15 @@ top:8px;
 }
 .nav-links:hover{
     background-color: #d3e4eb;
+}
+@media(max-width:500px){
+    .w{
+        width:100%;
+        /* margin: 0; */
+        overflow: hidden;
+        /* background: c;
+         */
+        /* margin: auto; */
+        /* padding-right: 80px; */
+    }
 }

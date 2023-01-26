@@ -35,3 +35,23 @@
     background-color: rgb(225,225,225);
     border-right: solid 3px #ef8236;
 }
+@media (max-width: 600px) {
+    .left-sidebar{
+        width: auto;
+    }
+    .side-nav{
+        width: auto;
+
+    }
+}
+@media (max-width: 344px) {
+    .left-sidebar{
+        width: 50%;
+        /* margin: 0%;
+        padding: 0%; */
+    }
+    .side-nav{
+        width: auto;
+
+    }
+}

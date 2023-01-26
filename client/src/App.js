@@ -1,7 +1,7 @@
 import {BrowserRouter as Router} from 'react-router-dom'
 
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
+import Navbars from './components/Navbar/Navbars';
 import AllRoutes from './AllRoutes';
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
@@ -20,7 +20,7 @@ useEffect(() => {
     <div className="App">
     <Router>
      {/* <h1>Stack Overflow Clone</h1> */}
-     <Navbar />
+     <Navbars />
      <AllRoutes />
      </Router>
     </div>

@@ -2,7 +2,7 @@
     width: calc(100% - 300px - 24px);
     float: left;
     margin:25px 0px;
-    padding: 0;
+    padding: 0%;
 }
 .main-bar-header{
     display: flex;
@@ -77,3 +77,68 @@ text-align: center;
     font-size: 13px;
 }
 
+/* Responsive */
+/* Display Questions */
+@media(max-width:850px){
+   .main-bar{
+    width: calc(100% -70%-50px);
+    width: auto;
+
+   }
+   .main-bar-header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+   }
+    .display-question-container{
+        display: grid;padding: 0%;
+    }
+    .display-question-details{
+
+        text-align: center;
+    }
+    .display-time{
+        display: grid;
+        text-align: center;
+    }
+    .question-title-link{
+        
+        text-align: center;
+    }
+    .display-tags-time .display-tags{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-evenly
+
+    }
+}
+@media(max-width:713px){
+    .main-bar-header{
+        display: grid;
+     }
+} 
+@media (max-width:845px) {
+    .main-bar-header{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:515px) {
+.main-bar-header{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+   }
+}
+@media(max-width:490px){
+    .main-bar{
+        width: auto;
+        /* margin: 0%; */
+        padding: 0%;
+    }
+    .display-question-container{
+        width: auto;
+        margin: 0%;
+        padding: 0%;
+    }
+}

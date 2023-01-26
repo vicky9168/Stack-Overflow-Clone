@@ -3,6 +3,8 @@ import './LeftSidebar.css'
 import { NavLink } from 'react-router-dom'
 import globe from '../../assets/globe.png'
 
+
+
 const LeftSidebar = () => {
   return (
     <div className='left-sidebar'>
@@ -10,6 +12,7 @@ const LeftSidebar = () => {
           <NavLink to='/' className='side-nav-links' activeClassname="active">
             <p>Home</p>
           </NavLink>
+
           <div className='side-nav-div' >
             <div><p>PUBLIC</p></div>
             <NavLink to='/Questions' className='side-nav-links' activeClassname="active">
@@ -22,7 +25,10 @@ const LeftSidebar = () => {
             <NavLink to='/Users' className='side-nav-links' style={{paddingLeft:'40px'}} activeClassname="active">
             <p>Users</p>
             </NavLink>
+
           </div>
+      {/* </Navbar.Collapse> */}
+
       </nav>
     </div>
   )
