@@ -52,6 +52,14 @@ const Tags = () => {
         id: 12,
         tagName: "mongoDB",
         tagDesc: "MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas. "
+    },{
+        id: 13,
+        tagName: "MySQL",
+        tagDesc: "It may be anything from a simple shopping list to a picture gallery or the vast amounts of information in a corporate network. To add, access, and process data stored in a computer database, you need a database management system such as MySQL Server."
+    },{
+        id: 14,
+        tagName: "vite.js",
+        tagDesc: "Vite. js allows developers to set up a development environment for frameworks like Vue, TezJS and React and even for Vanilla JavaScript app with a dev server."
     }] 
   return (
 <div className="home-container-1">
