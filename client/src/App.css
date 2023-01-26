@@ -18,29 +18,15 @@
 }
 @media(max-width:740px){
     .home-container-2{
- /* max-width: 70%; */
  width: auto;
- /* width: calc(100% + 200px); */
     }}
-@media(max-width:600px){
+@media(max-width:650px){
 .home-container-2{
  width: auto;
- /* width: calc(100% - 250px);
-width: calc(100% + 200px); */
 display:grid;
 text-align: center;
 justify-content:center;
-
-/* grid-column: auto; */
-/* float: inline-end; */
         }
-        /* .home-container-3{
-            max-width: 100%;
- width: calc(100% - 250px);
-
-display: grid;
-grid: 0%;
-        } */
 
     }
    

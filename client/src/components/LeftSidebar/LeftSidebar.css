@@ -25,6 +25,7 @@
     justify-content: flex-start;
     padding-left: 10px;
     transition: 0.2s;
+    padding-top: 10px;
 }
 .side-nav-links:hover{
     color: black;
@@ -35,7 +36,7 @@
     background-color: rgb(225,225,225);
     border-right: solid 3px #ef8236;
 }
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .left-sidebar{
         width: auto;
     }
@@ -46,10 +47,10 @@
 }
 @media (max-width: 344px) {
     .left-sidebar{
-        width: 50%;
+        width: auto;
     }
     .side-nav{
         width: auto;
 
     }
-}
+} */
