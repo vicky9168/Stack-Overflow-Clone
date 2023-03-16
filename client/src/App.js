@@ -9,8 +9,8 @@ import { fetchAllQuestions } from './actions/question';
 import { fetchAllUsers} from './actions/users'
 
 function App() {
-  const dispatch=useDispatch()
-
+  const dispatch=useDispatch()//Dispatching actions in Redux is the fundamental method of updating a Redux store's state
+//The useEffect Hook allows you to perform side effects in your components. Some examples of side effects are: fetching data, directly updating the DOM, and timers.
 useEffect(() => {
  dispatch(fetchAllQuestions())
  dispatch(fetchAllUsers())
